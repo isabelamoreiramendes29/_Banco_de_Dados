@@ -1,0 +1,13 @@
+# Backups automaticos do MySQL Workbench
+*.mwb.bak
+*.bak
+
+# Dumps e arquivos temporarios de banco
+*.log
+*.tmp
+dump.sql
+
+# Sistema operacional
+Thumbs.db
+desktop.ini
+.DS_Store
