@@ -8,8 +8,18 @@ Exercícios da disciplina de Banco de Dados — MySQL.
 |---|---|
 | `exercicio01/` | Criação do banco `agencia_db` e da tabela `agente`, com `ALTER TABLE` para adicionar, modificar e remover colunas |
 | `exercicio02/` | O Caso do Papiro Desaparecido — comandos básicos sobre a tabela `membros_expedicao`: `CREATE TABLE`, `INSERT`, `UPDATE`, `DELETE` e consultas com `WHERE`, `LIKE`, `IN`, `BETWEEN`, `COUNT`, `SUM` e `GROUP BY` |
+| `eav1/` | Diagramas Entidade-Relacionamento da avaliação 1, feitos no draw.io |
 
 Cada pasta tem o script `.sql` e, quando existir, o modelo `.mwb` do MySQL Workbench.
+
+### Diagramas da `eav1/`
+
+| Arquivo | Modelo |
+|---|---|
+| `EAV1_IsabelaMoreria.drawio` | Clínica — `Paciente`, `Consulta` e `Médico`, com os relacionamentos `Realiza`, `Possui` e `Participa` |
+| `EAV1_Q2_IsabelaMoreira.drawio` | Empresa — `Departamentos`, `Empregado`, `Projetos` e `Dependente`, com `Gerencia`, `Controla` e `Supervisiona` |
+
+Para abrir, entre em [app.diagrams.net](https://app.diagrams.net) e use **File > Open From > Device**.
 
 ## Como executar
 
