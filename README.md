@@ -12,6 +12,7 @@ Exercícios da disciplina de Banco de Dados — MySQL.
 | `exercicio03/` | RunTracker — modelagem no MySQL Workbench de uma plataforma de corridas de rua: provas, arenas, atletas, inscrições, kits e ficha médica, com relacionamentos 1:1, 1:N e N:M. Contém o modelo `.mwb` e um script `.sql` de referência |
 | `exercicio04/` | Grande Prêmio de Interlagos — duas tabelas relacionadas por `FOREIGN KEY`, com `CHECK`, `ENUM`, `UPDATE`, `DELETE` e consultas com `IN`, `LIKE`, `COUNT`, `AVG`, `GROUP BY`, `ORDER BY` e `LIMIT` |
 | `exercicio05/` | Locadora de filmes — Modelo Relacional feito no MySQL Workbench a partir de um DER: atributo composto (`NomeCli`), atributo multivalorado (`Telefone`), relacionamentos 1:N e N:M e participação total nas chaves estrangeiras |
+| `exercicio06/` | Correntista e conta corrente — Modelo Relacional com entidade fraca: `CONTA_CORRENTE` depende de `CORRENTISTA` por um relacionamento identificador 1:1, com chave primária composta `(CodCliente, CodConta)` |
 
 Cada pasta tem o script `.sql` e, quando existir, o modelo `.mwb` do MySQL Workbench.
 
