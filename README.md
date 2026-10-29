@@ -13,6 +13,11 @@ Exercícios da disciplina de Banco de Dados — MySQL.
 | `exercicio04/` | Grande Prêmio de Interlagos — duas tabelas relacionadas por `FOREIGN KEY`, com `CHECK`, `ENUM`, `UPDATE`, `DELETE` e consultas com `IN`, `LIKE`, `COUNT`, `AVG`, `GROUP BY`, `ORDER BY` e `LIMIT` |
 | `exercicio05/` | Locadora de filmes — Modelo Relacional feito no MySQL Workbench a partir de um DER: atributo composto (`NomeCli`), atributo multivalorado (`Telefone`), relacionamentos 1:N e N:M e participação total nas chaves estrangeiras |
 | `exercicio06/` | Correntista e conta corrente — Modelo Relacional com entidade fraca: `CONTA_CORRENTE` depende de `CORRENTISTA` por um relacionamento identificador 1:1, com chave primária composta `(CodCliente, CodConta)` |
+| `exercicio07/` | E-commerce — comandos DCL sobre a tabela `produto`: `CREATE USER`, `GRANT`, `REVOKE` e `ROLE`, incluindo permissão por coluna |
+| `exercicio08/` | Biblioteca de Jogos — primeira versão do exercício de `JOIN`, só com a questão 1 |
+| `exercicio09/` | Biblioteca de Jogos — consultas com `JOIN` pela tabela associativa `Jogador_has_Jogo`: `INNER JOIN`, `DISTINCT`, `GROUP BY` com `HAVING`, `ORDER BY`, `LEFT JOIN` e `IS NULL` |
+| `exercicio10/` | Cantina — procedures (`AplicarDesconto`, `ReporEstoque`) e functions (`ValorEmEstoque`, `SituacaoEstoque`) com `DELIMITER`, parâmetros, `IF` e `DETERMINISTIC` |
+| `exercicio11/` | Biblioteca — triggers `BEFORE` e `AFTER` com `NEW` e `OLD`, e views (em andamento) |
 
 Cada pasta tem o script `.sql` e, quando existir, o modelo `.mwb` do MySQL Workbench.
 
